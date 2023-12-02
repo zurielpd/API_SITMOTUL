@@ -189,14 +189,14 @@ const realizadas = computed(() => {
 
                 <div class="w-[600px] h-[350px] bg-[#8ebdb6] border-l-4 border-b-4 border-black space-y-12">
 
-                    <i class="fa-solid fa-circle-check absolute -translate-x-14 translate-y-16 text-3xl text-white"></i>
-                    <i class="fa-solid fa-circle-xmark absolute -translate-x-14 translate-y-44 text-3xl text-white"></i>
+                    <i class="fa-solid fa-circle-check absolute -translate-x-14 translate-y-16 text-3xl text-black"></i>
+                    <i class="fa-solid fa-circle-xmark absolute -translate-x-14 translate-y-44 text-3xl text-black"></i>
                     <div class="mt-12">
                         <div class=" h-20 bg-[#195e63]" :style="{ 'widt': realizadas + '%' }">
 
                         </div>
 
-                        <p class="text-xl text-white font-bold">Evaluaciones realizadas: {{ info.alEvaluados }} o {{
+                        <p class="text-xl text-black font-bold">Evaluaciones realizadas: {{ info.alEvaluados }} o {{
                             realizadas }} %</p>
                     </div>
 
@@ -205,7 +205,7 @@ const realizadas = computed(() => {
 
                         </div>
 
-                        <p class="text-xl text-white font-bold">Evaluaciones faltantes: {{ alFaltantes }} o {{
+                        <p class="text-xl text-black font-bold">Evaluaciones faltantes: {{ alFaltantes }} o {{
                             alumnosFaltantes }} %</p>
                     </div>
 
